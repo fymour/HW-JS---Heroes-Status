@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/img/2016-dota-2-1440x900.jpeg);
+    object-fit: cover;
+    color: rgb(214, 48, 48);
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.knight{
+    width: 15%;
+    height: 65%;
+    text-align: center;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.knight span{
+    font-size: 35px;
+    color: brown;
+}
+.knight .img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-image: url(/img/Без\ названия.jpeg);
+    background-size: cover;
+}
+.knight #stats{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+}
+.boss{
+    width: 15%;
+    height: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.boss span{
+    font-size: 35px;
+    color: brown;
+}
+.boss .img2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-image: url(/img/549b424817fe1795e09a027a1a3359f4.webp);
+    background-size: cover;
+}
+.boss #stats2{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+}
